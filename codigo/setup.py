@@ -12,7 +12,7 @@ setup(
     packages=find_packages(where='src'),
     zip_safe=False,
     install_requires=[
-        "flask==1.0.2",
+        "flask==2.3.2",
         "flask-sqlalchemy==2.3.0",
         "psycopg2==2.7.6.1",
         "uwsgi==2.0.17.1"
